@@ -1,7 +1,8 @@
 import java.util.Scanner;
 
 public class Exercicio1 {
-
+	static final double PI = 3.14;
+	
 	public static void main(String[] args) {
 		double raio, area;
 		Scanner tecla = new Scanner(System.in);
