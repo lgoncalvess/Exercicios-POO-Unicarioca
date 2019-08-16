@@ -12,7 +12,7 @@ public class Exercicio1 {
 		System.out.println("Entre com algum valor: ");
 		raio = tecla.nextDouble();
 		
-		area = 3.14 * Math.sqrt(raio);
+		area = Math.PI * Math.sqrt(raio);
 		System.out.println("Valor da area" + area);
 	}
 	
