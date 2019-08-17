@@ -12,8 +12,12 @@ public class Exercicio1 {
 		System.out.println("Entre com algum valor: ");
 		raio = tecla.nextDouble();
 		
-		area = Math.PI * Math.sqrt(raio);
-		System.out.println("Valor da area" + area);
+		area = calcularArea(raio);
+		System.out.println("Valor da area é : " + area);
+	}
+	
+	public static double calcularArea(double raio) {
+		return Math.PI * Math.sqrt(raio);
 	}
 	
 }
