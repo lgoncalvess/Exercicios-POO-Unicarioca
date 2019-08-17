@@ -16,6 +16,11 @@ public class Exercicio1 {
 		System.out.println("Valor da area é : " + area);
 	}
 	
+	/**
+	 * {@value esse metodo não serve de muita coisa}
+	 * @param raio
+	 * @return
+	 */
 	public static double calcularArea(double raio) {
 		return Math.PI * Math.sqrt(raio);
 	}
