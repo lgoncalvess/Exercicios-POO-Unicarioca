@@ -11,6 +11,7 @@ public class ExercicioAula22do08 {
 	 * @param valor1
 	 * @param valor2
 	 * @return
+	 * teste
 	 */
 	public static double calculaAlgo(double valor1, double valor2) {
 		double x = valor1 + valor2;
