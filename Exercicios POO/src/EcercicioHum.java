@@ -11,6 +11,6 @@ public class EcercicioHum {
 		raio = entrada.nextDouble();
 		area = (raio * raio) * PI;
 		System.out.println("A area do circulo é: " + area);
-	}
+	} 
 
 }
