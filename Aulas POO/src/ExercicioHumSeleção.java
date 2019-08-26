@@ -3,7 +3,7 @@ public class ExercicioHumSeleção {
 
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
-		int cod;
+		int cod; 
 		System.out.println("Digite o código de origem do produto: ");
 		cod = entrada.nextInt();
 		switch(cod){
