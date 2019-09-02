@@ -8,7 +8,7 @@ public class exercicioHumVetor {
 		}
 		
 		for(int i = 0;i < vetX.length;i++) {
-			System.out.println(vetX[i]);
+			System.out.println(vetX[i]); 
 		}
 
 	}
